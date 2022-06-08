@@ -1,0 +1,104 @@
+:root{
+    --primary: #ED3A29;
+    --secondary:#696C71 ;
+    --third:#4B1814;
+    --gray: #242325;
+    --black: #050101;
+    --white: #fff;
+    --fundo: #001219;
+   }
+body{
+    height: 100vh;
+    font-family: poppinsregular,poppinsbold;
+    overflow: hidden;
+    background: linear-gradient(45deg,var(--gray),var(--black),var(--third));
+    background-size: 150% 200%;
+    animation: colors ease-in;
+    -webkit-animation: colors 15s ease-in infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+.area_login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--fundo);
+    width: 355px;
+    height: auto;
+    padding: 35px;
+    border-radius: 25px 0px 25px;
+    border-color: linear-gradient(90deg,var(--white),var(--black));
+    border-style: solid;
+    border-width:2px;
+    animation: colors ease-in;
+    -webkit-animation: colors 15s ease-in infinite;
+}
+.login form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    margin-top: 10px;
+    background-color: var(--gray);
+    outline: none;
+    border: none;
+    border-radius: 15px 0px 15px;
+    height: 50px;
+    padding-left: 10px;
+    color: var(--white);
+    
+}
+input::placeholder{
+    color:var(--white);
+    font-size: 14px;
+}
+.login img{
+    width: 80px;
+    height: auto;
+}
+.login p{
+    font-size: 14px;
+    color: var(--white);
+}
+.login a{
+    color: var(--primary);
+    text-decoration: none;
+
+}
+.login a:hover{
+    color: var(--secondary);
+}
+form [type="submit"]{
+    display: block;
+    font-family: poppinssemibold;
+    background-color: var(--primary);
+    cursor: pointer;
+    font: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    color: var(--white);
+    align-self: flex-start;
+    
+}

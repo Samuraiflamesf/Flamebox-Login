@@ -1,0 +1,19 @@
+@media screen and (max-width: 550px) {
+    .login{
+        width: 300px;
+        height: auto;
+        padding: 15px;
+    }
+    input{
+        width: 80%;
+        font: 200;
+        margin: auto;
+        font-size: 14px;
+        
+    }
+    h3{
+        padding-left: 30px;
+        align-self: flex-start;
+        font-size: 14px;
+    }
+}
