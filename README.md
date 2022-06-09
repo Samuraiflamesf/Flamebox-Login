@@ -1,7 +1,6 @@
 <div align="center">
 <h1>HTML/CSS/JS - <a href="https://loginpageflamebox.netlify.app/">Pagina de Login</a> </h1>
  </div>
-<br>
 <div align="center">
 <h3>Desktop</h3>
  
